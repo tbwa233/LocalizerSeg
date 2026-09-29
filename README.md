@@ -12,22 +12,23 @@ Computed tomography (CT) localizer images are routinely acquired prior to volume
 
 ## Results
 A brief summary of our results are shown below. Our LocalizerSeg is compared to various fully-supervised and promptable baselines. In the table, the p < α column indicates baseline methods that were outperformed by LocalizerSeg in a statistically significant manner. For the ResU-Net baselines, † indicates that the model was randomly initialized, and ‡ indicates that the model was pretrained with ImageNet-1K weights. For LocalizerSeg, * indicates that MedSAM was used as the segmentation backbone, while ** indicates SAM as the backbone.
-
-| Method | DSC | $p < \alpha$ |
-|---|---:|:---|
-| U-Net | 0.8125 | No ($p > 0.05$) |
-| ResU-Net ($\dagger$) | 0.7839 | Yes ($p < 0.01$) |
-| ResU-Net ($\ddagger$) | 0.8003 | No ($p > 0.05$) |
-| U-Net++ | 0.7766 | Yes ($p < 0.01$) |
-| nnU-Net | 0.8092 | No ($p > 0.05$) |
-| Swin-Unet | 0.7382 | Yes ($p < 0.01$) |
-| UNETR | 0.7532 | Yes ($p < 0.01$) |
-| Swin-UNETR | 0.8041 | Yes ($p < 0.01$) |
-| CLIP-Driven Universal Model | 0.7583 | Yes ($p < 0.01$) |
-| UniSeg | 0.7938 | No ($p > 0.05$) |
-| DUM | 0.5981 | Yes ($p < 0.01$) |
-| U-KAN-Seg | 0.7498 | Yes ($p < 0.01$) |
-| LocalizerSeg (*) | 0.8265 | No ($p > 0.05$) |
-| LocalizerSeg (**) | 0.8269 | **---** |
+<p align="center">
+  | Method | DSC | $p < \alpha$ |
+  |---|---:|:---|
+  | U-Net | 0.8125 | No ($p > 0.05$) |
+  | ResU-Net ($\dagger$) | 0.7839 | Yes ($p < 0.01$) |
+  | ResU-Net ($\ddagger$) | 0.8003 | No ($p > 0.05$) |
+  | U-Net++ | 0.7766 | Yes ($p < 0.01$) |
+  | nnU-Net | 0.8092 | No ($p > 0.05$) |
+  | Swin-Unet | 0.7382 | Yes ($p < 0.01$) |
+  | UNETR | 0.7532 | Yes ($p < 0.01$) |
+  | Swin-UNETR | 0.8041 | Yes ($p < 0.01$) |
+  | CLIP-Driven Universal Model | 0.7583 | Yes ($p < 0.01$) |
+  | UniSeg | 0.7938 | No ($p > 0.05$) |
+  | DUM | 0.5981 | Yes ($p < 0.01$) |
+  | U-KAN-Seg | 0.7498 | Yes ($p < 0.01$) |
+  | LocalizerSeg (*) | 0.8265 | No ($p > 0.05$) |
+  | LocalizerSeg (**) | 0.8269 | **---** |
+</p>
 
 ## Code
