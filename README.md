@@ -11,5 +11,7 @@ Computed tomography (CT) localizer images are routinely acquired prior to volume
 </p>
 
 ## Results
+A brief summary of our results are shown below. Our LocalizerSeg is compared to various fully-supervised and promptable baselines. In the table, the p < α column indicates baseline methods that were outperformed by LocalizerSeg in a statistically significant manner. For the ResU-Net baselines, † indicates that the model was randomly initialized, and ‡ indicates that the model was pretrained with ImageNet-1K weights. For LocalizerSeg, * indicates that MedSAM was used as the segmentation backbone, while ** indicates SAM as the backbone.
+
 
 ## Code
