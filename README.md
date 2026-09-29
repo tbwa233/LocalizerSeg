@@ -1,1 +1,1 @@
-# ScoutSeg
+# LocalizerSeg
